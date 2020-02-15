@@ -83,7 +83,7 @@ class th1(Thread):
                                 top11.geometry("320x80+600+200")
                                 l3 = Label(top11, text="Some Details are Not Entered \n please Fill all the details",
                                            fg='skyblue', font=f1).place(x=50, y=15)
-                                playsound('Audio\\add1.mp3')
+                                playsound('add1.mp3')
 
                             else:
                                 try:
@@ -131,7 +131,7 @@ class th1(Thread):
                                                      font=f1).place(x=140, y=450)
 
                                     else:
-                                        playsound('\\Audio\\prime.mp3')
+                                        playsound('prime.mp3')
 
 
 
@@ -173,7 +173,7 @@ class th1(Thread):
                         top1.geometry("500x500+550+100")
                 class th4(Thread):
                     def run(self):
-                        playsound('Audio\\1234.mp3')
+                        playsound('1234.mp3')
 
                 t3=th3()
                 t4=th4()
@@ -184,14 +184,14 @@ class th1(Thread):
             elif s1 == '' and s2 == '':
 
                 o1="Message: Please Enter Username and Password"
-                playsound('Audio\\sound3.mp3')
+                playsound('sound3.mp3')
                 L1=Label(root,text=o1,font=f3).place(x=130,y=320)
             else:
                 o2="Please Enter valid Username Or Password"
                 ss1.set('')
                 ss2.set('')
                 L2 = Label(root, text=o2, font=f3).place(x=130, y=320)
-                playsound('Audio\\sound4.mp3')
+                playsound('sound4.mp3')
         def win():
             ans1 = messagebox.askyesno("Exit", "DO You Want to Exit")
             if ans1 == True:
@@ -231,7 +231,7 @@ class th1(Thread):
 
 class th2(Thread):
     def run(self):
-        playsound('Audio\\rsa1.mp3')
+        playsound('rsa1.mp3')
 
 
 t1=th1()
